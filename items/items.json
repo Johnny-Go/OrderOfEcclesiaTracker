@@ -1,0 +1,235 @@
+﻿[
+  // Abram
+  {
+    "name": "Abram",
+    "type": "toggle",
+    "img": "images/Abram.png",
+    "codes": "abram"
+  },
+  // Aeon
+  {
+    "name": "Aeon",
+    "type": "toggle",
+    "img": "images/Aeon.png",
+    "codes": "aeon"
+  },
+  // Anna
+  {
+    "name": "Anna",
+    "type": "toggle",
+    "img": "images/Anna.png",
+    "codes": "anna"
+  },
+  // Daniela
+  {
+    "name": "Daniela",
+    "type": "toggle",
+    "img": "images/Daniela.png",
+    "codes": "daniela"
+  },
+  // Eugen
+  {
+    "name": "Eugen",
+    "type": "toggle",
+    "img": "images/Eugen.png",
+    "codes": "eugen"
+  },
+  // George
+  {
+    "name": "George",
+    "type": "toggle",
+    "img": "images/George.png",
+    "codes": "george"
+  },
+  // Irina
+  {
+    "name": "Irina",
+    "type": "toggle",
+    "img": "images/Irina.png",
+    "codes": "irina"
+  },
+  // Jacob
+  {
+    "name": "Jacob",
+    "type": "toggle",
+    "img": "images/Jacob.png",
+    "codes": "jacob"
+  },
+  // Laura
+  {
+    "name": "Laura",
+    "type": "toggle",
+    "img": "images/Laura.png",
+    "codes": "laura"
+  },
+  // Marcel
+  {
+    "name": "Marcel",
+    "type": "toggle",
+    "img": "images/Marcel.png",
+    "codes": "marcel"
+  },
+  // Monica
+  {
+    "name": "Monica",
+    "type": "toggle",
+    "img": "images/Monica.png",
+    "codes": "monica"
+  },
+  // Serge
+  {
+    "name": "Serge",
+    "type": "toggle",
+    "img": "images/Serge.png",
+    "codes": "serge"
+  },
+  // Magnes
+  {
+    "name": "Magnes",
+    "type": "toggle",
+    "img": "images/Magnes.png",
+    "codes": "magnes"
+  },
+  // Paries
+  {
+    "name": "Paries",
+    "type": "toggle",
+    "img": "images/Paries.png",
+    "codes": "paries"
+  },
+  // Volaticus
+  {
+    "name": "Volaticus",
+    "type": "toggle",
+    "img": "images/Volaticus.png",
+    "codes": "volaticus"
+  },
+  // Rapidus Fio
+  {
+    "name": "Rapidus Fio",
+    "type": "toggle",
+    "img": "images/RapidusFio.png",
+    "codes": "rapidus"
+  },
+  // Arma Felix
+  {
+    "name": "Arma Felix",
+    "type": "toggle",
+    "img": "images/ArmaFelix.png",
+    "codes": "felix"
+  },
+  // Redire
+  {
+    "name": "Redire",
+    "type": "toggle",
+    "img": "images/Redire.png",
+    "codes": "redire"
+  },
+  // Cat Tackle
+  {
+    "name": "Cat Tackle",
+    "type": "toggle",
+    "img": "images/CatTackle.png",
+    "codes": "tackle"
+  },
+  // Dominus Hatred
+  {
+    "name": "Dominus Hatred",
+    "type": "toggle",
+    "img": "images/DominusHatred.png",
+    "codes": "hatred"
+  },
+  // Dominus Anger
+  {
+    "name": "Dominus Anger",
+    "type": "toggle",
+    "img": "images/DominusAnger.png",
+    "codes": "anger"
+  },
+  // Dominus Agony
+  {
+    "name": "Dominus Agony",
+    "type": "toggle",
+    "img": "images/DominusAgony.png",
+    "codes": "agony"
+  },
+  // Dextro Custos
+  {
+    "name": "Dextro Custos",
+    "type": "toggle",
+    "img": "images/DextroCustos.png",
+    "codes": "dextro"
+  },
+  // Sinestro Custos
+  {
+    "name": "Sinestro Custos",
+    "type": "toggle",
+    "img": "images/SinestroCustos.png",
+    "codes": "sinestro"
+  },
+  // Arma Custos
+  {
+    "name": "Arma Custos",
+    "type": "toggle",
+    "img": "images/ArmaCustos.png",
+    "codes": "arma"
+  },
+  // Ordinary Rock
+  {
+    "name": "Ordinary Rock",
+    "type": "toggle",
+    "img": "images/OrdinaryRock.png",
+    "codes": "rock"
+  },
+  // Serpent Scale
+  {
+    "name": "Serpent Scale",
+    "type": "toggle",
+    "img": "images/SerpentScale.png",
+    "codes": "scale"
+  },
+  // Mercury Boots
+  {
+    "name": "Mercury Boots",
+    "type": "toggle",
+    "img": "images/MercuryBoots.png",
+    "codes": "mboots"
+  },
+  // Winged Boots
+  {
+    "name": "Winged Boots",
+    "type": "toggle",
+    "img": "images/WingedBoots.png",
+    "codes": "wboots"
+  },
+  // Boots
+  {
+    "name": "Boots",
+    "type": "composite_toggle",
+    "codes": "boots",
+    "item_left": "mboots",
+    "item_right": "wboots",
+    "images": [
+      {
+        "left": false,
+        "right": false,
+        "img": "images/BootsDisabled.png"
+      },
+      {
+        "left": true,
+        "right": false,
+        "img": "images/MercuryBootsL.png"
+      },
+      {
+        "left": false,
+        "right": true,
+        "img": "images/WingedBootsR.png"
+      },
+      {
+        "left": true,
+        "right": true,
+        "img": "images/Boots.png"
+      }
+    ]
+  }
+]
