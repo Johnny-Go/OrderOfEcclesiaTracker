@@ -1,1 +1,608 @@
-{}
+{
+  "tracker_default": {
+    "type": "container",
+    "background": "#2b2b2b",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "left",
+          "v_alignment": "stretch",
+          "content": [
+            {
+              "type": "group",
+              "header": "Items",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "shared_item_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Pinned Locations",
+              "content": {
+                "type": "recentpins",
+                "style": "wrap",
+                "h_alignment": "stretch",
+                "v_alignment": "stretch",
+                "orientation": "vertical",
+                "compact": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Areas",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Ecclesia",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["ecclesia"]
+                    }
+                  },
+                  {
+                    "title": "Monastery",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["monastery"]
+                    }
+                  },
+                  {
+                    "title": "Wygol Village",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["wygolvillage"]
+                    }
+                  },
+                  {
+                    "title": "Ruvas Forest",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["ruvasforest"]
+                    }
+                  },
+                  {
+                    "title": "Kalidus Channel",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["kaliduschannel"]
+                    }
+                  },
+                  {
+                    "title": "Minera Prison Island",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["mineraprisonisland"]
+                    }
+                  },
+                  {
+                    "title": "Lighthouse",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["lighthouse"]
+                    }
+                  },
+                  {
+                    "title": "Tymeo Mountains",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["tymeomountains"]
+                    }
+                  },
+                  {
+                    "title": "Misty Forest Road",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["mistyforestroad"]
+                    }
+                  },
+                  {
+                    "title": "Skeleton Cave",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["skeletoncave"]
+                    }
+                  },
+                  {
+                    "title": "Somnus Reef",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["somnusreef"]
+                    }
+                  },
+                  {
+                    "title": "Giant's Dwelling",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["giantsdwelling"]
+                    }
+                  },
+                  {
+                    "title": "Tristis Pass",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["tristispass"]
+                    }
+                  },
+                  {
+                    "title": "Oblivion Ridge",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["oblivionridge"]
+                    }
+                  },
+                  {
+                    "title": "Argila Swamp",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["argilaswamp"]
+                    }
+                  },
+                  {
+                    "title": "Mystery Manor",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["mysterymanor"]
+                    }
+                  },
+                  {
+                    "title": "Training Hall",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["traininghall"]
+                    }
+                  },
+                  {
+                    "title": "Large Cavern",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["largecavern"]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Castle Maps",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Dracula's Castle",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["draculascastle"]
+                    }
+                  },
+                  {
+                    "title": "Castle Entrance",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["castleentrance"]
+                    }
+                  },
+                  {
+                    "title": "Library",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["library"]
+                    }
+                  },
+                  {
+                    "title": "Underground Labyrinth",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["undergroundlabyrinth"]
+                    }
+                  },
+                  {
+                    "title": "Barracks",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["barracks"]
+                    }
+                  },
+                  {
+                    "title": "Mechanical Tower",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["mechanicaltower"]
+                    }
+                  },
+                  {
+                    "title": "Arms Depot",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["armsdepot"]
+                    }
+                  },
+                  {
+                    "title": "Forsaken Cloister",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["forsakencloister"]
+                    }
+                  },
+                  {
+                    "title": "Final Approach",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["finalapproach"]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tracker_horizontal": {
+    "type": "container",
+    "background": "#2b2b2b",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "content": [
+            {
+              "type": "group",
+              "header": "Items",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "shared_item_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Pinned Locations",
+              "content": {
+                "type": "recentpins",
+                "style": "wrap",
+                "h_alignment": "stretch",
+                "v_alignment": "stretch",
+                "orientation": "horizontal",
+                "compact": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Areas",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Ecclesia",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["ecclesia"]
+                    }
+                  },
+                  {
+                    "title": "Monastery",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["monastery"]
+                    }
+                  },
+                  {
+                    "title": "Wygol Village",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["wygolvillage"]
+                    }
+                  },
+                  {
+                    "title": "Ruvas Forest",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["ruvasforest"]
+                    }
+                  },
+                  {
+                    "title": "Kalidus Channel",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["kaliduschannel"]
+                    }
+                  },
+                  {
+                    "title": "Minera Prison Island",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["mineraprisonisland"]
+                    }
+                  },
+                  {
+                    "title": "Lighthouse",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["lighthouse"]
+                    }
+                  },
+                  {
+                    "title": "Tymeo Mountains",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["tymeomountains"]
+                    }
+                  },
+                  {
+                    "title": "Misty Forest Road",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["mistyforestroad"]
+                    }
+                  },
+                  {
+                    "title": "Skeleton Cave",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["skeletoncave"]
+                    }
+                  },
+                  {
+                    "title": "Somnus Reef",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["somnusreef"]
+                    }
+                  },
+                  {
+                    "title": "Giant's Dwelling",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["giantsdwelling"]
+                    }
+                  },
+                  {
+                    "title": "Tristis Pass",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["tristispass"]
+                    }
+                  },
+                  {
+                    "title": "Oblivion Ridge",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["oblivionridge"]
+                    }
+                  },
+                  {
+                    "title": "Argila Swamp",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["argilaswamp"]
+                    }
+                  },
+                  {
+                    "title": "Mystery Manor",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["mysterymanor"]
+                    }
+                  },
+                  {
+                    "title": "Training Hall",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["traininghall"]
+                    }
+                  },
+                  {
+                    "title": "Large Cavern",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["largecavern"]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Castle Maps",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Dracula's Castle",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["draculascastle"]
+                    }
+                  },
+                  {
+                    "title": "Castle Entrance",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["castleentrance"]
+                    }
+                  },
+                  {
+                    "title": "Library",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["library"]
+                    }
+                  },
+                  {
+                    "title": "Underground Labyrinth",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["undergroundlabyrinth"]
+                    }
+                  },
+                  {
+                    "title": "Barracks",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["barracks"]
+                    }
+                  },
+                  {
+                    "title": "Mechanical Tower",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["mechanicaltower"]
+                    }
+                  },
+                  {
+                    "title": "Arms Depot",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["armsdepot"]
+                    }
+                  },
+                  {
+                    "title": "Forsaken Cloister",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["forsakencloister"]
+                    }
+                  },
+                  {
+                    "title": "Final Approach",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["finalapproach"]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

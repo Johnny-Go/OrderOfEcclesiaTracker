@@ -1,1 +1,164 @@
-[]
+[
+  {
+    "name": "argilaswamp",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/ArgilaSwampMap.png"
+  },
+  {
+    "name": "ecclesia",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/EcclesiaMap.png"
+  },
+  {
+    "name": "giantsdwelling",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/GiantsDwellingMap.png"
+  },
+  {
+    "name": "kaliduschannel",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/KalidusChannelMap.png"
+  },
+  {
+    "name": "largecavern",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/LargeCavernMap.png"
+  },
+  {
+    "name": "lighthouse",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/LighthouseMap.png"
+  },
+  {
+    "name": "mineraprisonisland",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/MineraPrisonIslandMap.png"
+  },
+  {
+    "name": "mistyforestroad",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/MistyForestRoadMap.png"
+  },
+  {
+    "name": "monastery",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/MonasteryMap.png"
+  },
+  {
+    "name": "mysterymanor",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/MysteryManorMap.png"
+  },
+  {
+    "name": "oblivionridge",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/OblivionRidgeMap.png"
+  },
+  {
+    "name": "ruvasforest",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/RuvasForestMap.png"
+  },
+  {
+    "name": "skeletoncave",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/SkeletonCaveMap.png"
+  },
+  {
+    "name": "somnusreef",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/SomnusReefMap.png"
+  },
+  {
+    "name": "traininghall",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/TrainingHallMap.png"
+  },
+  {
+    "name": "tristispass",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/TristisPassMap.png"
+  },
+  {
+    "name": "tymeomountains",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/TymeoMountainsMap.png"
+  },
+  {
+    "name": "wygolvillage",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/WygolVillageMap.png"
+  },
+  {
+    "name": "draculascastle",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/DraculasCastleMap.png"
+  },
+  {
+    "name": "castleentrance",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/CastleEntranceMap.png"
+  },
+  {
+    "name": "armsdepot",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/ArmsDepotMap.png"
+  },
+  {
+    "name": "barracks",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/BarracksMap.png"
+  },
+  {
+    "name": "finalapproach",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/FinalApproachMap.png"
+  },
+  {
+    "name": "forsakencloister",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/ForsakenCloisterMap.png"
+  },
+  {
+    "name": "library",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/LibraryMap.png"
+  },
+  {
+    "name": "mechanicaltower",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/MechanicalTowerMap.png"
+  },
+  {
+    "name": "undergroundlabyrinth",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/UndergroundLabyrinthMap.png"
+  }
+]
