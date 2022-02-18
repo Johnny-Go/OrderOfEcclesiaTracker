@@ -1,1 +1,1863 @@
-[]
+[
+  //Dracula's Castle
+  {
+    "name": "",
+    "color": "#",
+    "access_rules": ["$allDominus, $allVillagers"],
+    "children": [
+      //Castle Entrance
+      {
+        "children": [
+          //No Items required
+          {
+            "access_rules": [],
+            "children": []
+          }
+        ]
+      },
+      //Library
+      {
+        "children": [
+          //No Items required
+          {
+            "access_rules": [],
+            "children": []
+          }
+        ]
+      },
+      //Underground Labyrinth
+      {
+        "children": [
+          //No Items required
+          {
+            "access_rules": [],
+            "children": []
+          }
+        ]
+      },
+      //Barracks
+      {
+        "children": [
+          //No Items required
+          {
+            "access_rules": [],
+            "children": []
+          }
+        ]
+      },
+      //Mechanical Tower
+      {
+        "children": [
+          //No Items required
+          {
+            "access_rules": [],
+            "children": []
+          }
+        ]
+      },
+      //Arms Depot
+      {
+        "children": [
+          //No Items required
+          {
+            "access_rules": [],
+            "children": []
+          }
+        ]
+      },
+      //Forsaken Cloister
+      {
+        "children": [
+          //No Items required
+          {
+            "access_rules": [],
+            "children": []
+          }
+        ]
+      },
+      //Final Approach
+      {
+        "children": [
+          //No Items required
+          {
+            "access_rules": [],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  //Ecclesia
+  {
+    "name": "Ecclesia",
+    "color": "#",
+    "children": [
+      //No Items required
+      {
+        "children": [
+          {
+            "name": "Record 1 Secret",
+            "sections": [
+              {
+                "name": "Record 1",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "ecclesia",
+                "size": 25,
+                "x": 171,
+                "y": 15
+              }
+            ]
+          },
+          {
+            "name": "Record 5",
+            "sections": [
+              {
+                "name": "Record 5",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "ecclesia",
+                "size": 25,
+                "x": 41,
+                "y": 41
+              }
+            ]
+          },
+          {
+            "name": "Confodere",
+            "sections": [
+              {
+                "name": "Confodere",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "ecclesia",
+                "size": 25,
+                "x": 15,
+                "y": 41
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  //Monastery
+  {
+    "name": "Monastery",
+    "color": "#",
+    "children": [
+      //No Items required
+      {
+        "access_rules": [],
+        "children": [
+          {
+            "name": "Sandals",
+            "sections": [
+              {
+                "name": "Sandals",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "monastery",
+                "size": 25,
+                "x": 275,
+                "y": 171
+              }
+            ]
+          },
+          {
+            "name": "Magnes",
+            "sections": [
+              {
+                "name": "Magnes",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "monastery",
+                "size": 25,
+                "x": 119,
+                "y": 171
+              }
+            ]
+          }
+        ]
+      },
+      //Magnes or Volacticus required
+      {
+        "access_rules": ["magnes", "volaticus"],
+        "children": [
+          {
+            "name": "Cotton Hat",
+            "sections": [
+              {
+                "name": "Cotton Hat",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "monastery",
+                "size": 25,
+                "x": 119,
+                "y": 93
+              }
+            ]
+          },
+          {
+            "name": "Fool Ring",
+            "sections": [
+              {
+                "name": "Fool Ring",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "monastery",
+                "size": 25,
+                "x": 67,
+                "y": 93
+              }
+            ]
+          },
+          {
+            "name": "HP Max Up",
+            "sections": [
+              {
+                "name": "HP Max Up",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "monastery",
+                "size": 25,
+                "x": 93,
+                "y": 119
+              }
+            ]
+          },
+          {
+            "name": "Cube Puzzle",
+            "sections": [
+              {
+                "name": "Cubus",
+                "item_count": 1
+              },
+              {
+                "name": "Justice Ring",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "monastery",
+                "size": 25,
+                "x": 15,
+                "y": 119
+              }
+            ]
+          },
+          {
+            "name": "Culter",
+            "sections": [
+              {
+                "name": "Culter",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "monastery",
+                "size": 25,
+                "x": 171,
+                "y": 119
+              }
+            ]
+          },
+          {
+            "name": "Book of Spirits",
+            "sections": [
+              {
+                "name": "Book of Spirits",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "monastery",
+                "size": 25,
+                "x": 249,
+                "y": 119
+              }
+            ]
+          },
+          {
+            "name": "Heart Max Up Secret Room",
+            "sections": [
+              {
+                "name": "Heart Max Up",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "monastery",
+                "size": 25,
+                "x": 197,
+                "y": 93
+              }
+            ]
+          },
+          {
+            "name": "Red Drops Secret",
+            "sections": [
+              {
+                "name": "Red Drops",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "monastery",
+                "size": 25,
+                "x": 353,
+                "y": 119
+              }
+            ]
+          },
+          {
+            "name": "$500 Bag",
+            "sections": [
+              {
+                "name": "$500 Bag",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "monastery",
+                "size": 25,
+                "x": 353,
+                "y": 67
+              }
+            ]
+          },
+          {
+            "name": "MP Max Up",
+            "sections": [
+              {
+                "name": "MP Max Up",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "monastery",
+                "size": 25,
+                "x": 145,
+                "y": 41
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  //Ruvas Forest
+  {
+    "name": "Ruvas Forest",
+    "color": "#",
+    "children": [
+      //No Items required
+      {
+        "children": [
+          {
+            "name": "Macir",
+            "sections": [
+              {
+                "name": "Macir",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "ruvasforest",
+                "size": 25,
+                "x": 119,
+                "y": 15
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  //Kalidus Channel Upper
+  {
+    "name": "Kalidus Channel Upper",
+    "color": "#",
+    "children": [
+      //No Items required
+      {
+        "children": [
+          {
+            "name": "Jacob Room",
+            "sections": [
+              {
+                "name": "Two Items",
+                "item_count": 2
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "kaliduschannel",
+                "size": 25,
+                "x": 275,
+                "y": 15
+              }
+            ]
+          },
+          {
+            "name": "Twinbee Secret",
+            "sections": [
+              {
+                "name": "Twinbee",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "kaliduschannel",
+                "size": 25,
+                "x": 353,
+                "y": 15
+              }
+            ]
+          }
+        ]
+      },
+      //Serpent Scale
+      {
+        "access_rules": ["scale"],
+        "children": [
+          {
+            "name": "Heart Max Up",
+            "sections": [
+              {
+                "name": "Heart Max Up",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "kaliduschannel",
+                "size": 25,
+                "x": 67,
+                "y": 41
+              }
+            ]
+          },
+          {
+            "name": "Chamomile",
+            "sections": [
+              {
+                "name": "Chamomile",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "kaliduschannel",
+                "size": 25,
+                "x": 119,
+                "y": 41
+              }
+            ]
+          },
+          {
+            "name": "MP Max Up",
+            "sections": [
+              {
+                "name": "MP Max Up",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "kaliduschannel",
+                "size": 25,
+                "x": 379,
+                "y": 41
+              }
+            ]
+          },
+          {
+            "name": "HP Max Up",
+            "sections": [
+              {
+                "name": "MP Max Up",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "kaliduschannel",
+                "size": 25,
+                "x": 535,
+                "y": 41
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  //Kalidus Channel Lower
+  {
+    "name": "Kalidus Channel Lower",
+    "color": "#",
+    "children": [
+      //Serpent Scale
+      {
+        "access_rules": ["scale"],
+        "children": [
+          {
+            "name": "Potion",
+            "sections": [
+              {
+                "name": "Potion",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "kaliduschannel",
+                "size": 25,
+                "x": 431,
+                "y": 223
+              }
+            ]
+          },
+          {
+            "name": "Heart Max Up",
+            "sections": [
+              {
+                "name": "Heart Max Up",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "kaliduschannel",
+                "size": 25,
+                "x": 405,
+                "y": 171
+              }
+            ]
+          },
+          {
+            "name": "Anti-Venom",
+            "sections": [
+              {
+                "name": "Anti-Venom",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "kaliduschannel",
+                "size": 25,
+                "x": 457,
+                "y": 171
+              }
+            ]
+          },
+          {
+            "name": "Sapphire",
+            "sections": [
+              {
+                "name": "Sapphire",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "kaliduschannel",
+                "size": 25,
+                "x": 483,
+                "y": 145
+              }
+            ]
+          },
+          {
+            "name": "HP Max Up",
+            "sections": [
+              {
+                "name": "HP Max Up",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "kaliduschannel",
+                "size": 25,
+                "x": 405,
+                "y": 119
+              }
+            ]
+          },
+          {
+            "name": "Kalidus Channel Secret Room",
+            "sections": [
+              {
+                "name": "Three Items",
+                "item_count": 3
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "kaliduschannel",
+                "size": 25,
+                "x": 483,
+                "y": 67
+              }
+            ]
+          },
+          {
+            "name": "Fortis Fio",
+            "sections": [
+              {
+                "name": "Fortis Fio",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "kaliduschannel",
+                "size": 25,
+                "x": 197,
+                "y": 119
+              }
+            ]
+          },
+          {
+            "name": "Scutum",
+            "sections": [
+              {
+                "name": "Scutum",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "kaliduschannel",
+                "size": 25,
+                "x": 223,
+                "y": 171
+              }
+            ]
+          },
+          {
+            "name": "Iron Ore",
+            "sections": [
+              {
+                "name": "Iron Ore",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "kaliduschannel",
+                "size": 25,
+                "x": 41,
+                "y": 171
+              }
+            ]
+          },
+          {
+            "name": "$1000 Bag",
+            "sections": [
+              {
+                "name": "$1000 Bag",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "kaliduschannel",
+                "size": 25,
+                "x": 249,
+                "y": 197
+              }
+            ]
+          },
+          {
+            "name": "$1000 Bag",
+            "sections": [
+              {
+                "name": "$1000 Bag",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "kaliduschannel",
+                "size": 25,
+                "x": 223,
+                "y": 197
+              }
+            ]
+          },
+          {
+            "name": "MP Max Up",
+            "sections": [
+              {
+                "name": "$1000 Bag",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "kaliduschannel",
+                "size": 25,
+                "x": 197,
+                "y": 223
+              }
+            ]
+          },
+          {
+            "name": "$1000 Bag",
+            "sections": [
+              {
+                "name": "$1000 Bag",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "kaliduschannel",
+                "size": 25,
+                "x": 223,
+                "y": 223
+              }
+            ]
+          },
+          {
+            "name": "Emerald",
+            "sections": [
+              {
+                "name": "Emerald",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "kaliduschannel",
+                "size": 25,
+                "x": 249,
+                "y": 223
+              }
+            ]
+          },
+          {
+            "name": "Magician Ring Secret",
+            "sections": [
+              {
+                "name": "Magician Ring",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "kaliduschannel",
+                "size": 25,
+                "x": 171,
+                "y": 249
+              }
+            ]
+          },
+          {
+            "name": "Monica",
+            "sections": [
+              {
+                "name": "Monica",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "kaliduschannel",
+                "size": 25,
+                "x": 273,
+                "y": 249
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  //Minera Prison Island
+  {
+    "name": "",
+    "color": "#",
+    "children": [
+      //No Items required
+      {
+        "children": [
+          {
+            "name": "$500 Bag",
+            "sections": [
+              {
+                "name": "$500 Bag",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "mineraprisonisland",
+                "size": 25,
+                "x": 327,
+                "y": 171
+              }
+            ]
+          },
+          {
+            "name": "Cabriolet",
+            "sections": [
+              {
+                "name": "Cabriolet",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "mineraprisonisland",
+                "size": 25,
+                "x": 353,
+                "y": 171
+              }
+            ]
+          },
+          {
+            "name": "MP Max Up",
+            "sections": [
+              {
+                "name": "MP Max Up",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "mineraprisonisland",
+                "size": 25,
+                "x": 431,
+                "y": 171
+              }
+            ]
+          },
+          {
+            "name": "Priestess Ring Secret",
+            "sections": [
+              {
+                "name": "Priestess Ring",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "mineraprisonisland",
+                "size": 25,
+                "x": 431,
+                "y": 145
+              }
+            ]
+          },
+          {
+            "name": "Anti-Venom",
+            "sections": [
+              {
+                "name": "Anti-Venom",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "mineraprisonisland",
+                "size": 25,
+                "x": 509,
+                "y": 145
+              }
+            ]
+          },
+          {
+            "name": "HP Max Up",
+            "sections": [
+              {
+                "name": "HP Max Up",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "mineraprisonisland",
+                "size": 25,
+                "x": 431,
+                "y": 223
+              }
+            ]
+          },
+          {
+            "name": "Dominus Hatred",
+            "sections": [
+              {
+                "name": "Dominus Hatred",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "mineraprisonisland",
+                "size": 25,
+                "x": 509,
+                "y": 249
+              }
+            ]
+          },
+          {
+            "name": "$500 Bag",
+            "sections": [
+              {
+                "name": "$500 Bag",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "mineraprisonisland",
+                "size": 25,
+                "x": 613,
+                "y": 249
+              }
+            ]
+          },
+          {
+            "name": "Abram",
+            "sections": [
+              {
+                "name": "Abram",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "mineraprisonisland",
+                "size": 25,
+                "x": 639,
+                "y": 249
+              }
+            ]
+          },
+          {
+            "name": "Konami Man",
+            "sections": [
+              {
+                "name": "Konami Man",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "mineraprisonisland",
+                "size": 25,
+                "x": 587,
+                "y": 145
+              }
+            ]
+          }
+        ]
+      },
+      // Ordinary Rock, "Magnes", or Volacticus required
+      {
+        "access_rules": ["rock", "magnes", "volaticus"],
+        "children": [
+          {
+            "name": "Heart Max Up",
+            "sections": [
+              {
+                "name": "Heart Max Up",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "mineraprisonisland",
+                "size": 25,
+                "x": 587,
+                "y": 119
+              }
+            ]
+          },
+          {
+            "name": "Falcis",
+            "sections": [
+              {
+                "name": "Falcis",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "mineraprisonisland",
+                "size": 25,
+                "x": 717,
+                "y": 171
+              }
+            ]
+          },
+          {
+            "name": "Vol Fulgur",
+            "sections": [
+              {
+                "name": "Vol Fulgur",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "mineraprisonisland",
+                "size": 25,
+                "x": 613,
+                "y": 171
+              }
+            ]
+          },
+          {
+            "name": "Strength Ring Secret",
+            "sections": [
+              {
+                "name": "Strength Ring",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "mineraprisonisland",
+                "size": 25,
+                "x": 795,
+                "y": 145
+              }
+            ]
+          },
+          {
+            "name": "Glyph Sleeve",
+            "sections": [
+              {
+                "name": "Glyph Sleeve",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "mineraprisonisland",
+                "size": 25,
+                "x": 873,
+                "y": 145
+              }
+            ]
+          }
+        ]
+      },
+      // Ordinary Rock, or Volacticus required
+      {
+        "access_rules": ["rock", "volaticus"],
+        "children": [
+          {
+            "name": "Top of Prison",
+            "sections": [
+              {
+                "name": "Two Items",
+                "item_count": 2
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "mineraprisonisland",
+                "size": 25,
+                "x": 509,
+                "y": 15
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  //Lighthouse
+  {
+    "name": "Lighthouse",
+    "color": "#",
+    "children": [
+      // Ordinary Rock, Magnes, or Volacticus required
+      {
+        "access_rules": ["rock", "magnes", "volaticus"],
+        "children": [
+          {
+            "name": "Luminatio",
+            "sections": [
+              {
+                "name": "Luminatio",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lighthouse",
+                "size": 25,
+                "x": 93,
+                "y": 15
+              }
+            ]
+          },
+          {
+            "name": "Eugen",
+            "sections": [
+              {
+                "name": "Eugen",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lighthouse",
+                "size": 25,
+                "x": 119,
+                "y": 405
+              }
+            ]
+          },
+          {
+            "name": "Serpent Scale",
+            "sections": [
+              {
+                "name": "Serpent Scale",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lighthouse",
+                "size": 25,
+                "x": 93,
+                "y": 405
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  //Tymeo Mountains
+  {
+    "name": "Tymeo Mountains",
+    "color": "#",
+    "children": [
+      //No Items required
+      {
+        "children": [
+          {
+            "name": "Blue Drops",
+            "sections": [
+              {
+                "name": "Blue Drops",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "tymeomountains",
+                "size": 25,
+                "x": 197,
+                "y": 431
+              }
+            ]
+          },
+          {
+            "name": "Mushroom",
+            "sections": [
+              {
+                "name": "Blue Drops",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "tymeomountains",
+                "size": 25,
+                "x": 41,
+                "y": 327
+              }
+            ]
+          },
+          {
+            "name": "Empress Ring Secret Room",
+            "sections": [
+              {
+                "name": "Empress Ring",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "tymeomountains",
+                "size": 25,
+                "x": 15,
+                "y": 327
+              }
+            ]
+          }
+        ]
+      },
+      //Magnes or Volaticus required
+      {
+        "access_rules": ["[magnes]", "[volaticus]"],
+        "children": [
+          {
+            "name": "Laura",
+            "sections": [
+              {
+                "name": "Laura",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "tymeomountains",
+                "size": 25,
+                "x": 197,
+                "y": 249
+              }
+            ]
+          },
+          {
+            "name": "Fides Fio",
+            "sections": [
+              {
+                "name": "Fides Fio",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "tymeomountains",
+                "size": 25,
+                "x": 93,
+                "y": 171
+              }
+            ]
+          },
+          {
+            "name": "MP Max Up",
+            "sections": [
+              {
+                "name": "MP Max Up",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "tymeomountains",
+                "size": 25,
+                "x": 119,
+                "y": 171
+              }
+            ]
+          }
+        ]
+      },
+      //Ordinary Rock, Volaticus, or Rapidus Fio, required
+      //possible with Winged Boots + Arma Felix or Cat Tackle
+      //Magnes + Redire
+      {
+        "access_rules": [
+          "rock",
+          "volaticus",
+          "rapidus",
+          "wboots, felix",
+          "wboots, tackle",
+          "magnes, redire"
+        ],
+        "children": [
+          //no additional items
+          {
+            "name": "Crimson Mask",
+            "sections": [
+              {
+                "name": "Crimson Mask",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "tymeomountains",
+                "size": 25,
+                "x": 353,
+                "y": 145
+              }
+            ]
+          },
+          {
+            "name": "Heart Max Up",
+            "sections": [
+              {
+                "name": "Heart Max Up",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "tymeomountains",
+                "size": 25,
+                "x": 431,
+                "y": 93
+              }
+            ]
+          },
+          {
+            "name": "Emperor Ring",
+            "sections": [
+              {
+                "name": "Emperor Ring",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "tymeomountains",
+                "size": 25,
+                "x": 561,
+                "y": 41
+              }
+            ]
+          },
+          {
+            "name": "Marcel",
+            "sections": [
+              {
+                "name": "Marcel",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "tymeomountains",
+                "size": 25,
+                "x": 613,
+                "y": 15
+              }
+            ]
+          },
+          {
+            "name": "Item + Secret Item",
+            "sections": [
+              {
+                "name": "HP Max Up",
+                "item_count": 1
+              },
+              {
+                "name": "Ruby Secret",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "tymeomountains",
+                "size": 25,
+                "x": 639,
+                "y": 171
+              }
+            ]
+          },
+          //requires magnes + rock or volaticus
+          {
+            "access_rules": ["magnes, rock", "magnes, volaticus"],
+            "name": "Pneuma",
+            "sections": [
+              {
+                "name": "Pneuma",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "tymeomountains",
+                "size": 25,
+                "x": 483,
+                "y": 145
+              }
+            ]
+          },
+          //requires paries
+          {
+            "access_rules": ["paries"],
+            "children": [
+              {
+                "name": "Moonwalkers",
+                "sections": [
+                  {
+                    "name": "Moonwalkers",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "tymeomountains",
+                    "size": 25,
+                    "x": 327,
+                    "y": 119
+                  }
+                ]
+              },
+              {
+                "name": "Devil Ring",
+                "sections": [
+                  {
+                    "name": "Devil Ring",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "tymeomountains",
+                    "size": 25,
+                    "x": 327,
+                    "y": 145
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  //Misty Forest Road
+  {
+    "name": "Misty Forest Road",
+    "color": "#",
+    "children": [
+      //No Items required
+      {
+        "children": [
+          {
+            "name": "Vol Macir",
+            "sections": [
+              {
+                "name": "Vol Macir",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "mistyforestroad",
+                "size": 25,
+                "x": 301,
+                "y": 41
+              }
+            ]
+          }
+        ]
+      },
+      //Paries required
+      {
+        "access_rules": ["paries"],
+        "children": [
+          {
+            "name": "Melio Arcus",
+            "sections": [
+              {
+                "name": "Melio Arcus",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "mistyforestroad",
+                "size": 25,
+                "x": 197,
+                "y": 41
+              }
+            ]
+          },
+          {
+            "name": "Item + Secret Item",
+            "sections": [
+              {
+                "name": "Hierophant Ring",
+                "item_count": 1
+              },
+              {
+                "name": "White Drops Secret",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "mistyforestroad",
+                "size": 25,
+                "x": 275,
+                "y": 41
+              }
+            ]
+          }
+        ]
+      },
+      //Getting up here requires stuff
+      {
+        "access_rules": [
+          "magnes",
+          "volaticus",
+          "mboots, rock",
+          "wboots, rock",
+          "rock, felix", //you can do this without backdash but it's _super_ tight
+          "rock, tackle",
+          "rapidus"
+        ],
+        "children": [
+          {
+            "name": "Sage",
+            "sections": [
+              {
+                "name": "Sage",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "mistyforestroad",
+                "size": 25,
+                "x": 327,
+                "y": 15
+              }
+            ]
+          }
+        ]
+      },
+      //Getting up here requires stuff
+      {
+        "access_rules": [
+          "magnes, redire",
+          "volaticus",
+          "mboots, rock",
+          "wboots, rock",
+          "rock, felix", //you can do this without backdash but it's _super_ tight
+          "rock, tackle",
+          "rapidus"
+        ],
+        "children": [
+          {
+            "name": "Rue",
+            "sections": [
+              {
+                "name": "Rue",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "mistyforestroad",
+                "size": 25,
+                "x": 145,
+                "y": 15
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  //Skeleton Cave
+  {
+    "name": "Skeleton Cave",
+    "color": "#",
+    "children": [
+      //No Items required
+      {
+        "access_rules": [],
+        "children": [
+          {
+            "name": "",
+            "sections": [
+              {
+                "name": "",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "skeletoncave",
+                "size": 25,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  //Somnus Reef
+  {
+    "name": "",
+    "color": "#",
+    "children": [
+      //No Items required
+      {
+        "access_rules": [],
+        "children": [
+          {
+            "name": "",
+            "sections": [
+              {
+                "name": "",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "",
+                "size": 25,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  //Giant's Dwelling
+  {
+    "name": "",
+    "color": "#",
+    "children": [
+      //No Items required
+      {
+        "access_rules": [],
+        "children": [
+          {
+            "name": "",
+            "sections": [
+              {
+                "name": "",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "",
+                "size": 25,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  //Tristis Pass
+  {
+    "name": "",
+    "color": "#",
+    "children": [
+      //No Items required
+      {
+        "access_rules": [],
+        "children": [
+          {
+            "name": "",
+            "sections": [
+              {
+                "name": "",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "",
+                "size": 25,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  //Oblivion Ridge
+  {
+    "name": "",
+    "color": "#",
+    "children": [
+      //No Items required
+      {
+        "access_rules": [],
+        "children": [
+          {
+            "name": "",
+            "sections": [
+              {
+                "name": "",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "",
+                "size": 25,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  //Argila Swamp
+  {
+    "name": "",
+    "color": "#",
+    "children": [
+      //No Items required
+      {
+        "access_rules": [],
+        "children": [
+          {
+            "name": "",
+            "sections": [
+              {
+                "name": "",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "",
+                "size": 25,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  //Mystery Manor
+  {
+    "name": "",
+    "color": "#",
+    "children": [
+      //No Items required
+      {
+        "access_rules": [],
+        "children": [
+          {
+            "name": "",
+            "sections": [
+              {
+                "name": "",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "",
+                "size": 25,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  //Training Hall
+  {
+    "name": "",
+    "color": "#",
+    "children": [
+      //No Items required
+      {
+        "access_rules": [],
+        "children": [
+          {
+            "name": "",
+            "sections": [
+              {
+                "name": "",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "",
+                "size": 25,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  //Large Cavern
+  {
+    "name": "",
+    "color": "#",
+    "children": [
+      //No Items required
+      {
+        "access_rules": [],
+        "children": [
+          {
+            "name": "",
+            "sections": [
+              {
+                "name": "",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "",
+                "size": 25,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
