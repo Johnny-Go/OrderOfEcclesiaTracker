@@ -38,7 +38,7 @@
           "type": "tabbed",
           "tabs": [
             {
-              "title": "Areas",
+              "title": "Area Maps",
               "content": {
                 "type": "tabbed",
                 "tabs": [
@@ -342,7 +342,7 @@
           "type": "tabbed",
           "tabs": [
             {
-              "title": "Areas",
+              "title": "Area Maps",
               "content": {
                 "type": "tabbed",
                 "tabs": [
