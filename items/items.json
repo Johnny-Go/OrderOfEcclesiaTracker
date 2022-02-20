@@ -231,5 +231,33 @@
         "img": "images/Boots.png"
       }
     ]
+  },
+  // Relic Chest
+  {
+    "name": "Relic",
+    "type": "toggle",
+    "img": "images/Relic.png",
+    "codes": "relic"
+  },
+  // Red Chest
+  {
+    "name": "Item",
+    "type": "toggle",
+    "img": "images/Item.png",
+    "codes": "item"
+  },
+  // Glyph
+  {
+    "name": "Glyph Statue",
+    "type": "toggle",
+    "img": "images/Glyph.png",
+    "codes": "glyph"
+  },
+  // Villager
+  {
+    "name": "Villager",
+    "type": "toggle",
+    "img": "images/Villager.png",
+    "codes": "villager"
   }
 ]
